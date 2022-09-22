@@ -4,8 +4,9 @@
         <title>Table</title>
     </head>
     <body>
-        <table border="3">
-            <tr>
+        <table border="3" style="text-align: center; width: 50%;background-color: gray;" >
+            <caption style="color: rgb(255,255,255);background-color: rgb(0,0,0)">Student Table</caption>
+            <tr style="height: 50px;background-color:aquamarine;">
                 <th>ID</th>
                 <th colspan="2">Name</th>
                 <th>City</th>
@@ -26,8 +27,45 @@
                 <td>003</td>
                 <td>Student</td>
                 <td>C</td>
-                <td>NayPyiTaw</td>
+                <td rowspan="3">NayPyiTaw</td>
             </tr>
+            <tr>
+                <td>004</td>
+                <td>Student</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>Student</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>Student</td>
+                <td>F</td>
+                <td rowspan="2">Yangon</td>
+            </tr>
+            <tr>
+                <td>007</td>
+                <td>Student</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>008</td>
+                <td>Student</td>
+                <td>H</td>
+                <td rowspan="2">Mandalay</td>
+            </tr>
+            <tr>
+                <td>009</td>
+                <td>Student</td>
+                <td>I</td>
+            </tr>
+            <tfoot style="background-color: skyblue; height: 50px;">
+            <tr>
+                <td colspan="4">Total Students = 6</td>
+            </tr>
+        </tfoot>
         </table>
     </body>
 </html>
